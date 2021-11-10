@@ -3,10 +3,20 @@ A través de la ejecución del programa y los valores recibidos del mismo, se ha
 Se concluye esto al realizar pruebas en un tablero de 10x10 tanto con 5 agentes, como con 10 y 20, donde los resultados fueron los siguientes:
 
 
+*Tabla en MarkDown*
+_____________
 | Agentes | Tiempo1 | Tiempo2 | Tiempo3 |
 | 5 | 0:00:00.054036 | 0:00:00.103895	 | 0:00:00.067978 |
 | 10 | 0:00:00.039537 | 0:00:00.055086	 | 0:00:00.045290 |
 | 20 | 0:00:00.085303 | 0:00:00.052178	 | 0:00:00.042850 |
+*Formato para Google Colab*
+____________
+0:00:00.054036 5 agentes	0:00:00.103895	0:00:00.067978
+______________
+0:00:00.039537 10 agentes	0:00:00.055086	0:00:00.045290
+________
+0:00:00.085303 20 agentes	0:00:00.052178	0:00:00.042850
+___________________
 
 Dicho esto, es importante mencionar que, a pesar de que el timepo parece no verse afectado por la cantidad de agentes, la cantidad de *steps* a realizar disminuye considerablemente mientras más agentes haya.
 
